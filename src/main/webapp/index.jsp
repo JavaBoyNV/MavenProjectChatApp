@@ -11,6 +11,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Login</title>
+    <style type="text/css">
+    	input:focus{
+		 	   outline: none;
+			}
+    </style>
 </head>
 <body style="text-align: center; font-family: sans-serif; margin: 50px; padding: 0; background-color: #5e4fd0; color:#fff;">
 <h1 style="font-weight: 50">Login</h1>
