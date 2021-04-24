@@ -1,9 +1,10 @@
 <%@page import="java.io.*"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
+	if(request.getParameter("loginid")!=null){
 	if(request.getParameter("loginid").equals("723")){
 		response.sendRedirect("message.jsp");
-	}
+	}}
 %>
 <!DOCTYPE html>
 <html lang="en">
