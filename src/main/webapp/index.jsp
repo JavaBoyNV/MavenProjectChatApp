@@ -4,7 +4,6 @@
 	String st = request.getParameter("loginid");
 	if(st=="723"){
 		out.println("Hello");
-		
 	}
 	else{
 %>
@@ -21,7 +20,7 @@
 </head>
 <body style="text-align: center; font-family: sans-serif; margin: 50px; padding: 0; background-color: #5e4fd0; color:#fff;">
 <h1 style="font-weight: 50">Login</h1>
-	<form action="index.jsp">
+	<form>
 		<input type="text" name="loginid" required autocomplete="off" style="padding: 5px; width: 140px; border: none; border-radius: 10px;" placeholder="Enter your login id...">
 		<input type="submit" value="Submit" style="padding: 5px; width: 60px; border: none; border-radius: 10px;">
 	</form>
