@@ -5,7 +5,6 @@
 	if(st=="723"){
 		out.println("Hello");
 	}
-	else{
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,4 +25,3 @@
 	</form>
 </body>
 </html>
-<% } %>
