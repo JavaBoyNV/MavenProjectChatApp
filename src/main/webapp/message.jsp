@@ -42,9 +42,9 @@
 </head>
 <body style="text-align: center; font-family: sans-serif; margin: 0;padding: 0; background-color: #5e4fd0; color:#fff;">
     <h1 style="font-weight: 50">Welcome!</h1>
-    <textarea id="content" readonly placeholder="Your message will display here..." style="font-family: sans-serif; resize: none; width: 210px; height: 50px; padding: 5px;"></textarea><br>
+    <textarea id="content" readonly placeholder="Your message will display here..." style="font-family: sans-serif; resize: none; width: 210px; height: 50px; padding: 5px; border: none; border-radius: 10px;"></textarea><br>
     <form action="message.jsp">
-        <input type="text" placeholder="Enter message here..." maxlength="100" name="t1" required autocomplete="off" style="padding: 5px; width: 140px;"> <input type="submit" value="Send" style="padding: 5px; width: 60px;">
+        <input type="text" placeholder="Enter message here..." maxlength="100" name="t1" required autocomplete="off" style="padding: 5px; width: 140px;border: none; border-radius: 10px;"> <input type="submit" value="Send" style="padding: 5px; width: 60px; border: none; border-radius: 10px;">
     </form><br>
     <p style="font-size: 10px"><em>Please wait for reply before sending message to avoid message collision !</em></p>
     <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
