@@ -1,6 +1,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
-	if(request.getParameter("loginid")=="723"){
+	String st = request.getParameter("loginid");
+	if(st=="723"){
 		response.sendRedirect("message.jsp");
 	}
 %>
