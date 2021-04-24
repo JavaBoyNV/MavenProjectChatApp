@@ -3,8 +3,10 @@
 <%
 	String st = request.getParameter("loginid");
 	if(st=="723"){
-		response.sendRedirect("message.jsp");
+		out.println("Hello");
+		
 	}
+	else{
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,3 +27,4 @@
 	</form>
 </body>
 </html>
+<% } %>
