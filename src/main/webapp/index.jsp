@@ -4,6 +4,7 @@
 	String st = request.getParameter("loginid");
 	if(st=="723"){
 		out.println("Hello");
+		return;
 	}
 %>
 <!DOCTYPE html>
